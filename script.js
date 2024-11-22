@@ -17,8 +17,10 @@ for (let i = 0; i < passwords.length; i++) {
     }
 }
 console.log("List without first password: ");
+
 passwords.shift();
 console.log(passwords);
 console.log("List with extra password:");
+
 passwords.unshift("fr");
 console.log(passwords);
